@@ -5,6 +5,11 @@
     font: 32px Viga;
 }
 
+.nav-item.nav-link:hover{
+    transition: 1s;
+    color: "blue"
+}
+
 
 /* Jumbotron */
 .jumbotron {
