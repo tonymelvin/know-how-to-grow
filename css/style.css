@@ -44,6 +44,11 @@
     font-weight: 500;
 }
 
+.jumbotron .container .tombol{
+    background-color: red;
+    border: red;
+}
+
 
 
 /* Info Panel */
@@ -94,6 +99,18 @@
     font-size: 18px;
     color: #ACACAC;
     font-weight: 200;
+}
+
+.workingspace .tombol{
+    transform: scale(1);
+    transition: all .4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.workingspace .tombol:hover {
+    transform: scale(1.1);
+    color: red;
+    background-color: white;
+    border: 1px solid red;
 }
 
 
