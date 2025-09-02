@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium-Inspired Article</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("footer.html"); 
+    });
+    </script> 
+    <style>
+        /* Importing Charter-like font (Georgia as fallback) and sans-serif for headings */
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+        body {
+            font-family: Lora, serif;
+/*             font-family: 'Playfair Display', Georgia, serif; */
+/*             line-height: 1.8; */
+                letter-spacing: -0.003em;
+                line-height: 36px;
+                font-weight: 400;
+            color: #242424  /* 1a1a1a; */
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+/*             font-family: 'Inter', sans-serif; */
+        font-family: Poppins, sans-serif;
+            font-weight: 600;
+            color: #000;
+        }
+
+        .medium-container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .medium-nav {
+            border-bottom: 1px solid #e5e5e5;
+            padding: 1rem 0;
+        }
+
+        .medium-nav a {
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            color: #000;
+            margin-right: 1.5rem;
+            text-decoration: none;
+        }
+
+        .medium-nav a:hover {
+            text-decoration: underline;
+        }
+
+        .article-header {
+            margin: 3rem 0;
+        }
+
+        .article-header h1 {
+            font-size: 2.5rem;
+            line-height: 1.2;
+        }
+
+        .article-meta {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+
+        .article-content img {
+            max-width: 300%;
+            height: auto;
+            margin: 2rem 0;
+            position: relative;
+            left: -25%;
+        }
+
+        .article-content p {
+           font-size: 24px;
+             font-style: normal;
+            margin-bottom: 1.5rem;
+        }
+
+        .article-content h2 {
+            font-size: 1.75rem;
+            margin: 2rem 0 1rem;
+        }
+
+        .article-footer {
+            margin-top: 3rem;
+            border-top: 1px solid #e5e5e5;
+            padding-top: 1rem;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            line-height: 1rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <nav class="medium-nav">
+        <div class="medium-container">
+            <a href="#">Home</a>
+            <a href="#">Stories</a>
+            <a href="#">About</a>
+        </div>
+    </nav>
+
+    <main class="medium-container">
+        <header class="article-header">
+            <h2>Cellular Rejunevation</h2>
+             <h1>Increase Your Energy Levels and Unlock Your Body's Natural Healing Power Through Reminerminalisation</h1>
+<!--             <div class="article-meta">
+                <span>By John Doe</span> · <span>June 4, 2025</span> · <span>5 min read</span>
+            </div> -->
+        </header>
+        <div id="includedContent"></div>
+        <article class="article-content">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mUGkwpqozBM?si=Snu7MauR0vZF7gv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br><br><br>
+                <p>Hans Beekmans has dedicated his life to being a professional in every endeavour he has pursued. As a dentist, he has excelled to the point of being the trusted dentist to the King and Queen of the Netherlands.</p>
+                <p>Yet, despite providing the best dental care, Hans became frustrated at the ever-increasing occurrence of dental issues, such as cavities, teeth grinding and undeveloped jaws—why did such things continue to occur even in those who followed recommended practise of flossing, teeth brushing and avoiding sugar?</p>
+                <p>After years of research Hans Beekmans found that the answer did not lie in more complicated and costly dental procedures, but rather the answer was very simple and affordable to all. </p>
+                <p>“I became convinced that good health begins at the cellular level. Our body’s cells require essential nutrients and minerals to generate energy and perform their functions effectively. Without optimal cell function, the foundation of your health weakens because the body will extract its needed minerals from bones and tissue—a process known as demineralisation. I wondered if supplying the minerals in supplement form would re-mineralise the body and halt this process.”</p>
+                <p>Hans put his theories to the test by recommending his patient take specific dosages of vitamins and minerals to help improve their teeth.</p>
+                <p>“I observed first hand the improvements in health, not just in the gums and teeth, but the overall wellbeing of my patients.” </p>
+                <p>But once again, Hans had to return to more dedicated research, as he found that most supplements on the market did not contain the appropriate ratios of minerals and vitamins, nor were they designed for optimal absorption. </p>
+                <p>“Not many people realise that vitamins and minerals work in exact ratios. Too much of one mineral can create a deficiency in another. Furthermore, certain minerals require the right environment in order to be absorbed by the body. That’s why I developed a compact range of supplements, with precise ratios and guidelines, to support a healthy lifestyle and I believe these to be most effective in improving the health of my patients.”</p>
+                <p>Order the Basal Basics - Cellular Rejunevation Package Today</p>
+
+            <h2>The Calcium Magnesium Ratio</h2>
+            <p>Calcium and magnesium is best taken in a ratio of 2:1 in a dissolved acidic state. We achieve this by adding apple cider vinegar. Calcium needs an acidic environment to be absorbed in the intestines, but with magnesium added, the environment becomes alkaline. Apple cider vinegar provides the acidic environment and therefore good absorption.</p>
+        <p>  <img src="img/BasicEnergyProductionUnit.png" </p>
+        </article>
+        <footer class="article-footer">
+        <p><b>DISCLAIMER:</b> <br><br> The recommended nutritional supplements are intended to support general health and can contribute to the maintenance of normal teeth and a healthy mouth as part of a balanced diet and good oral hygiene. These recommendations are not a substitute for professional dental care, medical advice or a varied diet. Consult a doctor or pharmacist before starting any supplement, especially if you have a medical condition, are pregnant, breastfeeding or are taking medication. Supplements should not be used to prevent, treat or cure any disease and no claims are made in this regard.
+        <br><br>
+        These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease.</p>
+        <br><br>
+            <p>© 2025 <a href="https://basalbasics.nl#">Basal Basics B.V.</a>. All rights reserved.</p>
+        <br><br>
+        </footer>
+       
+    </main>
+</body>
+</html>
